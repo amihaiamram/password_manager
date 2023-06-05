@@ -16,8 +16,7 @@ def create_table(conn):
         CREATE TABLE IF NOT EXISTS passes (
             site TEXT,
             passcode TEXT,
-            date TEXT
-        )
+            date TEXT        )
     '''
     conn.execute(create_query)
 
